@@ -1,7 +1,11 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import java.util.*
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+    /* Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável. */
+    val scanner = Scanner(System.`in`);
+    var A: Int = scanner.nextInt();
+    var B: Int = scanner.nextInt();
+    var SOMA: Int = A + B;
+
+    println("SOMA = ${SOMA}");
 }

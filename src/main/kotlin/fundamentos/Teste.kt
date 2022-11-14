@@ -10,6 +10,8 @@ fun main(args: Array<String>){ //metodo Main
     var name = "Nami"; // Tipo declarado e iniciado. Pode ser mudado depois
     val nameVal = "Usopp"; // Tipo de variavel imutavel
     lateinit var pirata : String; //Coloca-se 'lateinit' para ser iniciado depois mas tem que ter o tipo
+
+    helloWorld(name);
 }
 
 fun helloWorld(nome: String){
