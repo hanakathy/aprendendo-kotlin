@@ -3,8 +3,10 @@ package fundamentos
 import java.util.*
 
 class Soma {
-    fun somar() {
+    fun somar(){
         /*** A soma de dois valores inteiros ***/
+        println("=== SOMA ===");
+
         val scanner = Scanner(System.`in`);
         var A: Int = scanner.nextInt();
         var B: Int = scanner.nextInt();
